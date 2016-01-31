@@ -249,7 +249,9 @@ a {
 }
 
 a:hover {
-    color: #111;
+    color: #c0392b;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 p, ul, ol, dl {

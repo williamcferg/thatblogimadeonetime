@@ -1,11 +1,56 @@
 body {
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Open Sans', sans-serif; 
   font-size: 2.1rem;
   line-height: 1.5em;
+  color: #020202;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: -.02em;
+  font-weight: bold;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  margin-bottom: 9.6px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: .02em;
+  font-weight: normal;
+  padding-bottom: 7px;
 }
 
 p {
   margin: 0 0 1em 0;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: none;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-bio {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.home-template.nav-closed {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 body:not(.post-template) .post {
@@ -198,6 +243,27 @@ body.home-template .pagination {
   margin: 2rem auto;
   margin-top: 0;
 }
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.btn {
+    background-color: #020202;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
 /**********
 TAG CLOUD
 **********/
