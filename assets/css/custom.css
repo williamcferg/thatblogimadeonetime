@@ -49,8 +49,17 @@ p {
 }
 
 .home-template.nav-closed {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.media-icon {
+  width: 25px;
+  height: 25px;
+  color: #020202;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-bottom: -8px;
 }
 
 body:not(.post-template) .post {
@@ -262,6 +271,7 @@ body.home-template .pagination {
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 /**********
