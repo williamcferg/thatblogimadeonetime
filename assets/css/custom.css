@@ -149,8 +149,31 @@ body:not(.post-template) .post-date {
   color: #fff;
 }
 
-.post-content {
-  font-family: "Lato", sans-serif !important;
+body.post-template .post-content {
+  font-family: 'Lato', sans-serif;
+}
+
+body.post-template .post-content a {
+  color: #16a2f9;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+body.post-template .post-content i {
+  font-weight: 300;
+}
+
+body.post-template .post-content b, body.post-template .post-content strong {
+  font-weight: 900;
+}
+
+body.post-template .post-content a:hover {
+  text-decoration: underline;
+}
+
+.post-content p, .post-content ul {
+  font-size: 0.8em;
+  font-weight: 400;
 }
 
 .read-next {
