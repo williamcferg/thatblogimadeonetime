@@ -33,7 +33,6 @@ h3 {
 p {
   margin: 0 0 1em 0;
   font-size: 16px;
-  line-height: 1.4em;
   text-transform: none;
   letter-spacing: 0.05em;
   font-weight: 400;
@@ -51,6 +50,10 @@ p {
 .home-template.nav-closed {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+body.home-template p {
+  line-height: 1.4em;
 }
 
 .media-icon {
@@ -172,6 +175,11 @@ body.post-template .post-content a:hover {
 }
 
 .post-content p, .post-content ul {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.post-content p, .post-content ol {
   font-size: 0.8em;
   font-weight: 400;
 }
